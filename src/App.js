@@ -30,7 +30,6 @@ export default class App extends Component {
   setToken = (token) =>{
       this.setState({token})
       localStorage.setItem('token',token)
-      // this.getIsAdmin()
   }
 
 
